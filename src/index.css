@@ -114,6 +114,13 @@ button {
   transform: var(--rotate-0);
   transition-delay: var(--delay);
 }
+.selectable {
+  cursor: pointer;
+}
+.selectable:hover {
+  transform: scale(1.1);
+  transition-duration: var(--delay);
+}
 .selected .card-face {
   transform: var(--rotate-0);
   transition-delay: var(--delay);
