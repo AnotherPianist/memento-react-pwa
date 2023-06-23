@@ -3,7 +3,7 @@ export default function Card({image, selected, onClick}) {
     <div className="card">
       <div className={selected && 'selected'}>
         <img src={image} className="card-face" alt=""/>
-        <img src="/assets/fireship.png" className="card-back" alt=""/>
+        <img src="/assets/fireship.png" className="card-back" alt="" onClick={onClick}/>
       </div>
     </div>
   );
